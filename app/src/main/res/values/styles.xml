@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary_dark</item>
+        <item name="colorControlNormal">#DEDEDE</item>
+        <item name="android:actionBarStyle">@style/ToolbarTheme</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/primary</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:popupBackground">@color/background_material_light</item>
+        <item name="android:textAppearance">@style/Toolbar_TextAppearance</item>
+    </style>
+
+    <style name="Toolbar_TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

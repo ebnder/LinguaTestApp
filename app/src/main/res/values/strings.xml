@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LinguaTestApp</string>
+
+    <string name="word_add_hint">Добавить слово</string>
+    <string name="menu_item_search">Поиск</string>
+    <string name="list_empty">Список пуст</string>
+
+    <string name="dialog_title_remove">Удалить слово из списка?</string>
+    <string name="dialog_title_add">Добавление слова</string>
+    <string name="dialog_error">Поле не должно быть пустым</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_translate">Перевести</string>
+    <string name="dialog_remove">Удалить</string>
+
+    <string name="no_translation_for_word">Нет перевода для этого слова</string>
+    <string name="request_error">Не удалось выполнить запрос. Проверьте ваше интернет соединение</string>
+    <string name="word_already_added">Это слово уже есть в словаре. Воспользуйтесь поиском</string>
+</resources>
