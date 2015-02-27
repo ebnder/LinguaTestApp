@@ -239,10 +239,10 @@ public class MainActivity extends ActionBarActivity {
             if (mAdapter == null) {
                 mAdapter = new WordsAdapter(this, mWords);
                 list.setAdapter(mAdapter);
-                findViewById(R.id.empty_list_text).setVisibility(View.GONE);
             } else {
                 mAdapter.notifyDataSetChanged();
             }
+            findViewById(R.id.empty_list_text).setVisibility(View.GONE);
         } else {
             findViewById(R.id.empty_list_text).setVisibility(View.VISIBLE);
         }
